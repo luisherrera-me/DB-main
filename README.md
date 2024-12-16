@@ -58,10 +58,10 @@ This setup provides a PostgreSQL database using Docker with an initial schema an
 
 ### Users
 
-| Name           | Email            | Address       | Role       |
-|----------------|------------------|---------------|------------|
-| administrador  | admin@admin.com  | kr24E # 8-11  | Admin      |
-| Luis Herrera   | luis@user.com    | kr54a # 1-87  | Admin      |
+| Name           | Email            | Address       | Role       | Password   |
+|----------------|------------------|---------------|------------|------------|
+| administrador  | admin@admin.com  | kr24E # 8-11  | Admin      | admin123   |
+| Luis Herrera   | luis@user.com    | kr54a # 1-87  | Admin      | user123    |
 
 ## Usage
 
