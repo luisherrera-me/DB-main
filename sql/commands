@@ -1,0 +1,6 @@
+docker-compose down -v
+docker-compose up
+
+
+listar
+docker exec -it db-sensor psql -U kuby-beta -d sensor -c "SELECT * FROM data_sensor LIMIT 10;"
